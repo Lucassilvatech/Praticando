@@ -4,7 +4,7 @@
 
 :root{
     --font-titulo:  'Seymour One', sans-serif;
-    --font-firacode: 'Montserrat', sans-serif; 
+    --font-padrão: 'Montserrat', sans-serif; 
 }
 *{
     margin: 0;
@@ -12,41 +12,47 @@
     border: 0;
 
 }
+main{
+    max-width: 1000px;
+    margin: auto;
+}
 header{
     background-color: black;
     color: white;
 
+}
+header h1{
     height: 150px;
     text-align: center;
     line-height: 18vh;
 
     font-family: var(--font-titulo);
-    font-size: 1em;
+    font-size: 1.5em;
     font-variant: small-caps;
 }
-section h2{
+h2{
     font-family: var(--font-titulo);
     font-variant: small-caps;
 
-    padding: 10px;
-    padding-left: 40px;
+    padding: 25px 0px 25px 40px;
+
     
 }
-section p{
-    font-family: var(--font-firacode);
+p{
+    font-family: var(--font-padrão);
 
-    padding: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0px 40px 25px 40px;
     text-align: justify;
 }
 #img-bg{
     background-image: url(../imagens/panda-bg.jpg);
-    background-position: left center;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 
-    padding: 100px;
+    padding: 6%;
+    margin: auto;
+    max-width: 800px;
 }
 #destaque{
     background-color: rgba(8, 8, 8, 0.371);
