@@ -1,0 +1,30 @@
+/* main, body{
+    background-color: 
+}
+p{
+    color: rgb(203, 199, 199);
+}
+h2, h3{
+    color: white;
+}
+ul{
+    color: white;
+}
+#imgTema{
+    background-color: #fff;
+} */
+.dark{
+    background-color:rgb(51, 43, 60);
+}
+.light{
+    color: rgb(203, 199, 199);
+}
+.white{
+    color: white;
+}
+.coiso{
+    color: white;
+}
+div > a{
+    color: rgb(2, 122, 250);
+}

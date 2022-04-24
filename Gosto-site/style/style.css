@@ -16,6 +16,14 @@ main{
     max-width: 1000px;
     margin: auto;
 }
+main img {
+    position: absolute;
+    right: 0;
+    margin: 10px 20px;
+}
+main img:hover{
+    background-color: rgb(161, 157, 157);
+}
 header{
     background-color: black;
     color: white;
@@ -64,11 +72,16 @@ p{
 ul{
     font-family: var(--font-padrão);
     padding:10px 40px 10px 40px ;
-    text-decoration: none;
     list-style-image: url(../imagens/favicon-16x16.png);
 }
 li{
     padding: 10px;
+}
+#créditos{
+    padding: 5px 0px 20px 20px;
+}
+div > a{
+    color: rgb(2, 122, 250);
 }
 a{
     text-decoration: none;
@@ -83,5 +96,6 @@ footer{
     text-align: center;
 }
 footer a{
+
     color: white;
 }

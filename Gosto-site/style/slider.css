@@ -1,10 +1,10 @@
 
 .slider{
-    width: 82%;
+    width: 81%;
     max-width: 800px;
     height: 35vw;
     max-height: 500px;
-    left: 40px;
+    left: 60px;
     margin-bottom: 25px;
 
     position: relative;
